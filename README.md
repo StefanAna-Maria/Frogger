@@ -1,9 +1,9 @@
-# OOP Template
+# Cross The Road
 
-### Tema 0
+### Programul constituie un joc similar jocului clasic Frogger
 
-- [ ] Nume proiect (poate fi schimbat ulterior)
-- [ ] Scurtă descriere a temei alese, ce v-ați propus să implementați
+- [ ] Obiectivul este ca jucatorul(Broasca) sa traverseze in siguranta strada 
+- [ ] Strada este constituita din 2 linii "SAFE" 
 
 ## Tema 1
 

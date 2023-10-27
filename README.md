@@ -1,9 +1,19 @@
 # Cross The Road
 
-### Programul constituie un joc similar jocului clasic Frogger
+### Descriere:
+- [ ] "Cross The Road" este o versiune a jocului clasic Frogger, reprezentand o broasca care trebuie sa traverseze un traseu cu obstacole. 
+- [ ]  Pentru partea -Tema 1- , jocul se prezinta  intr-o varianta simplificata:
+- are un singur tip de obstacol(masina)
+- Obstacolele se misca toate spre aceeiasi directie  
+## Obiectiv:
 
-- [ ] Obiectivul este ca jucatorul(Broasca) sa traverseze in siguranta strada 
-- [ ] Strada este constituita din 2 linii "SAFE" 
+Obiectivul este ca jucatorul(Broasca) sa traverseze in siguranta strada, acumuland un scor cat mai mare.
+
+## Functionalitate/Reguli:
+- [ ] Exista 2 linii considerate zone sigure, iar intre acestea sunt linii cu obstacole.
+- [ ] Jucatorul trebuie sa ajunga de cat mai multe ori de la o linie sigura la alta.
+- [ ] De fiecare data cand jucatorul face o traversare reusita(trece fara a lovi niciun obstacol) scorul acestuia creste.
+- [ ] Daca jucatorul este se loveste de un obstacol jocul s-a incheiat, iar scorul se reseteaza.
 
 ## Tema 1
 
@@ -22,40 +32,9 @@
 - [ ] tag de `git`: de exemplu `v0.1`
 - [ ] serviciu de integrare continuă (CI); exemplu: GitHub Actions
 
-## Tema 2
-
-#### Cerințe
-- [ ] separarea codului din clase în `.h` (sau `.hpp`) și `.cpp`
-- [ ] moșteniri:
-  - minim o clasă de bază și **3 clase derivate**
-  - ierarhia trebuie să fie cu bază proprie, nu derivată dintr-o clasă predefinită
-  - [ ] clasă cu atribut de tip pointer la o clasă de bază cu derivate
-  - [ ] funcții virtuale (pure) apelate prin pointeri de bază din clasa care conține atributul de tip pointer de bază
-    - minim o funcție virtuală va fi **specifică temei** (e.g. nu simple citiri/afișări)
-    - constructori virtuali (clone): sunt necesari, dar nu se consideră funcții specifice temei
-  - [ ] apelarea constructorului din clasa de bază din constructori din derivate
-  - [ ] smart pointers (recomandat, opțional)
-  - [ ] `dynamic_cast`/`std::dynamic_pointer_cast` pentru downcast cu sens
-- [ ] suprascris cc/op= pentru copieri/atribuiri corecte, copy and swap
-- [ ] excepții
-  - [ ] ierarhie proprie cu baza `std::exception` sau derivată din `std::exception`; minim 2 clase pentru erori specifice
-  - [ ] utilizare cu sens: de exemplu, `throw` în constructor, `try`/`catch` în `main`
-- [ ] funcții și atribute `static`
-- [ ] STL
-- [ ] cât mai multe `const`
-- [ ] la sfârșit: commit separat cu adăugarea unei noi clase derivate fără a modifica restul codului, pe lângă cele 3 derivate deja adăugate
-  - noua derivată nu poate fi una existentă care a fost ștearsă și adăugată din nou
-- [ ] tag de `git`: de exemplu `v0.2`
-
-## Tema 3
-
-#### Cerințe
-- [ ] 2 șabloane de proiectare (design patterns)
-- [ ] o clasă șablon cu sens; minim **2 instanțieri**
-  - [ ] preferabil și o funcție șablon (template) cu sens; minim 2 instanțieri
-<!-- - [ ] o specializare pe funcție/clasă șablon -->
-- [ ] tag de `git`: de exemplu `v0.3` sau `v1.0`
 
 ## Resurse
 
-- adăugați trimiteri către resursele externe care v-au ajutat sau pe care le-ați folosit
+- preview
+- preview
+- preview

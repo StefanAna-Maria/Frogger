@@ -32,9 +32,3 @@ Obiectivul este ca jucatorul(Broasca) sa traverseze in siguranta strada, acumula
 - [ ] tag de `git`: de exemplu `v0.1`
 - [ ] serviciu de integrare continuă (CI); exemplu: GitHub Actions
 
-
-## Resurse
-
-- preview
-- preview
-- preview

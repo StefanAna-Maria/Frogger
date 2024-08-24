@@ -2,7 +2,7 @@
 
 ### Descriere:
 - [ ] "Cross The Road" este o versiune a jocului clasic Frogger, reprezentand o broasca care trebuie sa traverseze un traseu cu obstacole. 
-- [ ]  Pentru partea "Tema 1" , jocul se prezinta  intr-o varianta simplificata:
+- [ ]  Jocul se prezinta  intr-o varianta simplificata:
 - are un singur tip de obstacol(masina)
 - Obstacolele se misca toate spre aceeiasi directie  
 ## Obiectiv:
